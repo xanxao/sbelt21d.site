@@ -11,18 +11,18 @@ HEADLINE_END;
 
 # Ad Text - leave a blank line between paragraphs
 $adText = <<< ADTEXT_END
-	<p>O nutricionista e especialista em condicionamento físico da Outlier, Bruce Krahn, descobriu uma possível causa REAL da atual epidemia de ganho de peso. Ele lança uma luz totalmente nova sobre por que é fácil ganhar peso e tão difícil perdê-lo, especialmente quando se segue dietas tradicionais e planos que são impossíveis de seguir.</p>
-<p>Seu método simples funciona tão bem que a indústria da perda de peso o tem ameaçado desde que ele começou a compartilhar sua solução e chocou o público com os resultados.</p>
+	<p>O Pesquisador Takanori Tsuda influente de uma Universidade do Japão, explica de maneira simples e convincente de como pessoas comuns ajustaram suas medidas para manequins inferiores ao que hoje se encontram. O mais engraçado é que temos tudo dentro de nossas casas e não percebemos.</p>
+<p>Por mais que seja um método simples e funciona tão bem que a indústria da perda de peso faz uma pressão enorme para que não seja exibido à população.</p>
 <p>Veja como esta estranha nova descoberta está afetando sua perda de peso e saúde.</p>
 <h2>  FAÇA ESTE TESTE DE 30 SEGUNDOS PARA DESCOBRIR! </h2>
 ADTEXT_END;
 
-$total_num_questions = 4;
+$total_num_questions = 3;
 
 # Question 1 
 $question[1] = <<< QUESTION1_END
 $text Questão 1 de 4 
-\n Você ou alguém que você conhece trabalha na indústria de dieta ou perda de peso?
+\n Gostaria de ter mais energia para realizar simples atividades que seu corpo hoje não aguenta?
 QUESTION1_END;
 $answer_type[1] = "Buttons"; // "Buttons" or "Checkboxes" allowed
 // Specify the question answers below, one answer per line
@@ -34,7 +34,7 @@ QUESTIONANSWERS1_END;
 # Question 2 
 $question[2] = <<< QUESTION2_END
 $text Questão 2 de 4 
-\n Você acredita que SÓ pode perder peso seguindo planos rígidos, cortando calorias e fazendo mais exercícios?
+\n Já percebeu que não está mais recebendo elogios por causa do seu corpo?
 QUESTION2_END;
 $answer_type[2] = "Buttons"; // "Buttons" or "Checkboxes" allowed
 // Specify the question answers below, one answer per line
@@ -216,22 +216,22 @@ SMARTMATCHTEXT10_END;
 
 # Congratulations Statement 
 $congratulationsStatement = <<< CONGRATS_END
-Parabéns! Antes de assistir à apresentação em que o Sr. Krahn compartilha sua descoberta com você, exigimos que cada pessoa concorde com as seguintes diretrizes:
+Parabéns! Antes de assistir o vídeo gostaria que cumprisse com os requisitos abaixo:
 CONGRATS_END;
 
 # Rule 1
 $rule[1] = <<< RULE1_END
-Você NÃO deve falar sobre esta apresentação com ninguém devido aos processos judiciais pendentes de vários programas populares de perda de peso e grandes empresas farmacêuticas.
+Assistir todo o vídeo para entender por completo.
 RULE1_END;
 
 # Rule 2
 $rule[2] = <<< RULE2_END
-NÃO use as sugestões do Sr. Krahn para perder muito peso, muito rápido. Esse poderoso segredo pode ajudar mulheres comuns com mais de 30 anos a perder peso rapidamente e deve ser usado com responsabilidade.
+Aumente seu volume para ter total entendimento.
 RULE2_END;
 
 # Rule 3
 $rule[3] = <<< RULE3_END
-Esta apresentação está sendo disponibilizada SOMENTE por um tempo limitado e será REMOVIDA se o Sr. Krahn sofrer muita pressão da indústria de grandes dietas e perda de peso. Se você não quiser descobrir esses segredos do setor, FECHE ESTA JANELA IMEDIATAMENTE para liberar sua vaga para a próxima pessoa da fila.
+Aperte o PLAY do vídeo para iniciar.
 RULE3_END;
 
 # Footer Disclaimer
@@ -249,7 +249,7 @@ DISCLAIMER_END;
 
 # Clickbank Affiliate Link
 $affInfo["cb"]["link"] = <<< AFFILIATELINK_END
-https://packblack.com.br/
+https://sbelt21d.com/
 AFFILIATELINK_END;
 
 # Clickbank Tracking Tag
@@ -304,11 +304,11 @@ $facebookPixelCode = <<< FACEBOOKPIXELCODE_END
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '561968010928450');
+  fbq('init', '1001810227121181');
   fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=561968010928450&ev=PageView&noscript=1"
+  src="https://www.facebook.com/tr?id=1001810227121181&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
 FACEBOOKPIXELCODE_END;
