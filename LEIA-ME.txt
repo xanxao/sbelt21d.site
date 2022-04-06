@@ -1,0 +1,46 @@
+Regras de edição do Quiz:
+
+1) Todas as informações que você fornece ao Quiz estão em "index.php",
+   na parte superior do arquivo e formatado da seguinte maneira:
+   
+   $ someThing = <<< SOMETHING_END
+   É aqui que vão as suas informações para este algo em particular !!
+   ALGO_END;
+   
+2) Você NUNCA DEVE REMOVER essa 1ª linha (com o "<<< ALGO_END" nela)
+   nem sua correspondência "SOMETHING_END;" linha na parte inferior, mesmo que sua intenção seja
+   para não inserir nada entre eles. Você só deve fazer alterações no que é
+   entre essas "linhas de suporte".
+   
+3) O que quer que você coloque entre as linhas de colchete pode ser dividido em vários
+   linhas para facilitar a leitura, desde que a quebra seja onde um espaço pode aparecer. O
+   várias linhas serão reunidas automaticamente no módulo de teste.
+   Por exemplo, a única linha:
+   
+   A rápida raposa marrom salta sobre o cão preguiçoso.
+   
+   Também podem ser inseridos como as seguintes três linhas:
+   
+  rápida raposa 
+   marrom salta
+   o cachorro preguiçoso.
+   
+4) Se você deseja inserir vários parágrafos de dados para uma entrada particular, como você
+   Provavelmente faria para o texto do seu anúncio, basta inserir uma linha em branco entre os parágrafos. O
+   parágrafos individuais ainda podem ser divididos em várias linhas para facilitar a leitura
+   finalidades conforme descrito no item 3 acima.
+
+5) Se você inserir algo em um dos campos do questionário que não faz sentido,
+   então, quando você navegar para o quiz em seu navegador, em vez de ver um
+   real quiz-lander, em vez disso, será apresentada uma lista dos erros encontrados,
+   para que você possa fazer correções e tentar novamente.
+   
+6) O modelo de questionário como está (sem nenhuma alteração feita por você) será exibido
+   um único erro, indicando que o modelo padrão de código de pixel do Facebook fornecido é apenas
+   que, um modelo: você deve preencher os espaços em branco, substituí-lo inteiramente por seu
+   próprio código do Pixel do Facebook ou remover o modelo fornecido (mas lembre-se, não remova
+   as linhas de suporte!).
+
+7) É isso aí! Depois de fazer suas edições, a única coisa que você precisa lembrar é fazer
+   certifique-se de que a imagem que você especificou para o quiz-lander foi enviada para o mesmo
+   pasta como o arquivo "index.php".
